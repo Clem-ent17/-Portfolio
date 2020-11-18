@@ -3,87 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Montserrat:wght@200;300;400;600;900&family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
 </head>
 <body>
     <!-- Navigation menu for Index.html -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light pr-3 pl-3">
-        <a class="navbar-brand bg-success text-white pr-3 pl-3" href="index.html"><h4>Clement Valles</h4></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3 pr-3 pl-3">
+        <a class="navbar-brand text-light pr-3 pl-3" href="index.html"><h4>CLEM<span class="text-muted">ENT VALLES</span></span></h4></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-light menu-font" href="index.html">_ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link text-light menu-font" href="portfolio.html">_PORTFOLIO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
+              <a class="nav-link text-light menu-font" href="contact.html">_CONTACT<span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
 
     <!-- Contact Form -->
     <div class="container">
         <div class="row">
-              <div class="col-md-8">
-                  <div class="card mt-5 mb-5" style="width: 100%;">
-                      <div class="card-body" style="padding:30px !important;">
-                        <form>
-                            <div class="form-row">
-                                
-                                <div class="col-md-12">
-                                    <h1 class="card-title text-success">Contact Me</h1>
-                                    <hr>
-                                </div>
-                                <hr>
-                                <!-- Name Form -->
-                                <div class="col-md-9 mb-3">
-                                    <label for="validationServer">First name</label>
-                                    <input type="text" class="form-control" id="validationServer01" placeholder="Your name" required>
-                                </div>
-                                <div class="col-md-3"></div>
-                                <hr>
-                                <!-- Email Form -->
-                                <div class="col-md-9 mb-3">
-                                    <label for="inputEmail">Email</label>
-                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Your email" required>
-                                </div>
-                                <div class="col-md-3"></div>
-                                <hr>
-                                <!-- Message Form -->
-                                <div class="col-md-9 mb-3">
-                                    <label for="inputMessage">Message</label>
-                                    <textarea class="form-control" placeholder="Write your message" required></textarea>
-                                </div>
-                                <div class="col-md-3"></div>
-                            </div>
-                            
-                            <!-- submit button -->
-                            <button class="btn btn-primary btn-success btn-lg pl-5 pr-5 mb-2 mt-2" type="submit">Submit</button>
-                          </form>
+            <div class="col-md-12">
+                <div class="mt-5 mb-2 bg-transparent" style="width: 100%;">
+                    <div class="card-body" style="padding:30px !important;">
+                        <div class="col-md-12">
+                            <h1 class="card-title text-center text-light spread-font">CONTACT ME</h1>
+                        </div>
+                    </div>  
+                </div>    
+            </div>
+            <div class="col-md-5 mt-4">
+                <h2 class="card-title text-light">LET'S GET IN TOUCH</h2>
+                <p class="card-text text-light">If you are reading this, it probably means that you are interested about my work. I'm curious to know more about you!</p>
+                <p class="card-text text-light">Contact me and let's exchange about ideas or projects.</p>
+                <div class="mt-4">
+                    <a class="font-white" href="https://www.linkedin.com/in/clement-valles/" target="_blank"><h4><i class="fab fa-linkedin"></i> LinkedIn</h4></a>
+                </div>
+                <div class="mt-3">
+                    <a class="font-white" href="https://github.com/Clem-ent17" target="_blank"><h4>GitHub</h4></a>
+                </div>
+                <div class="mt-3">
+                  <a class="font-white" href="assets\Clement-Valles_resume2020.pdf" target="_blank"><h4>My Resume</h4></a>
+                </div>
+                
+            </div>
+            <div class="col-md-7">
+                <form >
+                  <div class="form-row">
+                      <!-- Name Form -->
+                      <div class="col-md-12 mb-3">
+                          <h5 class="text-light mt-4 mb-0 pb-0">_YOUR NAME:</h5>
+                          <label for="validationServer">First name</label>
+                          <input type="text" class="form-control" id="validationServer01" placeholder="Your name" required>
+                      </div>
+                      <!-- Email Form -->
+                      <div class="col-md-12 mb-3">
+                          <h5 class="text-light mt-4 mb-0 pb-0">_YOUR EMAIL:</h5>
+                          <label for="inputEmail">Email</label>
+                          <input type="email" class="form-control" id="inputEmail3" placeholder="Your email" required>
+                      </div>
+                      <!-- Message Form -->
+                      <div class="col-md-12 mb-3">
+                          <h5 class="text-light mt-4 mb-0 pb-0">_YOUR MESSAGE:</h5>
+                          <label for="inputMessage">Message</label>
+                          <textarea class="form-control" placeholder="Write your message" required></textarea>
                       </div>
                   </div>
-              </div>
-              <div class="col-md-4"></div>
+                  
+                  <!-- submit button -->
+                  <button class="btn btn-outline-light btn-lg pl-5 pr-5 mb-2 mt-2" type="submit">SUBMIT</button>
+                </form>
+            </div>
         </div>
     </div>
-      
-  <!-- Footer -->
-  <footer class="page-footer font-small bg-dark lighten-3 pt-2 green-line">
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-5 text-secondary">
-          © 2020 Copyright
-      </div>
-      <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+
+    <!-- Footer -->
+    <footer class="footer-style">
+        <!-- Copyright -->
+        <div class="text-center py-4 text-secondary">
+            © 2020 Copyright - Clement Valles Portfolio
+        </div>
+        <!-- Copyright -->
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

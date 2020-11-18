@@ -1,16 +1,77 @@
 /* Body image main cover */
 body {
-    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+    background: url('https://img.wallpapersafari.com/desktop/1920/1080/80/86/WXVrzb.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-/* Footer style */
-
-.green-line {
-    border-top-style: solid !important;
-    border-width: 6px  !important;
-    border-color: green !important;
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3em;
 }
+
+p, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #747474 !important;
+}
+
+hr {
+    border-top: 1px solid rgb(63, 63, 63) !important;
+    width: 80%;
+}
+
+  
+span.word:after {
+    background-color: #f3d615;
+    content: " ";
+    height: 50%;
+    position: absolute;
+    left: 0;
+    margin-left: -1rem;
+    top: 45%;
+    width: calc(100% + 2.75rem);
+    z-index: -1;
+}
+
+.large-font {
+    font-size: 2em;
+}
+
+.bolder-font {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.spread-font {
+    letter-spacing: 1.1em;
+}
+
+.menu-font {
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.font-white {
+    color: white;
+}
+
+/* Footer style */
+.footer-style {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;;
+}
+
