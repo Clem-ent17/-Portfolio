@@ -11,7 +11,7 @@ It features 3 pages:
 
 ## Links:
 Access the GitHub respository:
-https://github.com/Clem-ent17/Homework-02
+https://github.com/Clem-ent17/Portfolio
 
 Access the online portfolio:
-https://clem-ent17.github.io/Homework-02/
+https://clem-ent17.github.io/Portfolio/
