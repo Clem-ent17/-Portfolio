@@ -41,6 +41,12 @@ It features 6 pages:
     - GitHub
 
 
+## Special Acknowledgements:
+
+The Stock images on the portfolio pages are from the website:
+[Unsplash](https://unsplash.com/)
+
+
 ## Project status:
 
 Work as completed.
