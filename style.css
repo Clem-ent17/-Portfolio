@@ -10,8 +10,34 @@ body {
 h1, h2, h3, h4, h5, h6, button {
     font-family: 'Sulphur Point', sans-serif;
     font-weight: 700;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
 }
+
+
+    @media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    { 
+        .big-text{
+              font-size: 100px;
+        }
+    }
+    @media screen 
+    and (min-device-width: 701px) 
+    and (max-device-width: 1199px) 
+    { 
+        .big-text{
+              font-size: 70px;
+        }
+    }
+    @media screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 700px) 
+    { 
+        .big-text{
+              font-size: 30px;
+        }
+    }
 
 p, a {
     font-family: 'Montserrat', sans-serif;
@@ -20,10 +46,25 @@ p, a {
 
 a {
     text-decoration: none !important;
+    -webkit-transition: 1s all;   
+    -webkit-transition-delay: 0.3s; 
+    -moz-transition: 1s all;   
+    -moz-transition-delay: 0.3s; 
+    -ms-transition: 1s all;   
+    -ms-transition-delay: 0.3s; 
+    -o-transition: 1s all;   
+    -o-transition-delay: 0.3s; 
+    transition: 1s all;   
+    transition-delay: 0.3s;
 }
 
 a:hover {
-    color: #747474 !important;
+    color: #DF020A !important;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
 }
 
 hr {
@@ -42,6 +83,11 @@ span.word:after {
     top: 45%;
     width: calc(100% + 2.75rem);
     z-index: -1;
+}
+
+.img-shadow {
+    -webkit-filter: drop-shadow(40px 5px 40px rgba(0, 0, 0, 0.87));
+    filter: drop-shadow(40px 5px 40px rgba(0, 0, 0, 0.87));
 }
 
 .large-font {
@@ -67,6 +113,7 @@ span.word:after {
     font-family: 'Sulphur Point', sans-serif;
     font-weight: 400;
     letter-spacing: 0.1em;
+    text-align: right;
 }
 
 .font-white {
@@ -93,3 +140,33 @@ span.word:after {
     width: 100%;;
 }
 
+.underline {
+    text-decoration: underline #DF020A;
+    text-underline-offset: 5px;
+}
+
+.text-white {
+    color: #f5f5f5;
+}
+
+.text-grey {
+    color:#aaaaaa;
+}
+
+.text-red {
+    color:#DF020A;
+}
+
+/* Bottom left text */
+.bottom-left {
+    padding-left: 20%;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+position: absolute;
+top: 8px;
+left: 16px;
+}
